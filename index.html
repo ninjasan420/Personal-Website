@@ -1,110 +1,41 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta charset="utf-8" />
-    <meta name="description" content="Personal Website">
-    <meta author="Thorsten 'toti' Tiefenbach">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hire me 😃 HTML, CSS, JavaScript, Programmer, Open Source, Stuttgart, Pentesting">
+    <meta author="Toti">
     <meta name="keywords" content="HTML, CSS, JavaScript, Programmer, Open Source, Stuttgart, Pentesting">
-    <link rel="icon" type="image/png" href="/images/favicon.png">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>toti</title>
-</head>
-
-<body>
-
-    
-    <div class="stars"></div>
-    <div class="container">
-        <div class="moon">
-            <div class="circle1"></div>
-            <div class="circle2"></div>
-            <div class="circle3"></div>
-        </div>
-        <div class="star1"></div>
-        <div class="star2"></div>
-        <div class="star3"></div>
-        <div class="star4"></div>
-        <div class="star5"></div>
-        <div class="star6"></div>
-        <div class="twinkl"></div>
+    <link rel="stylesheet/less" type="text/css" href="styles/main.less" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
+    <script type="text/javascript" src="src/shell.js"></script>
+    <script type="text/javascript" src="src/cli.js"></script>
+    <link rel="icon" type="image/gif" href="favicon.gif">
+  </head>
+  
+  <body>
+  
+  <div class="terminal-window">
+    <header>
+      <div class="button red"></div>
+      <div class="button yellow"></div>
+      <div class="button green"></div>
+    </header>
+    <div id="terminal">
+      <p><span class="green">\[._.]/</span> - Willkommen in der Matrix von Toti. Tippe 'help' zum starten.</p>
+        <p class="hidden">
+          <span class="prompt">
+            <span class="root">root</span>
+            <span class="tick">❯</span>
+          </span>
+          <span contenteditable="true" class="input"></span>
+        </p>
     </div>
-
-    <svg id="clip-paths" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g></g></svg>
-    <div id="page">
-        <header>
-            <div id="header-content">
-                <div id="header-logo">
-                    <img src="images/avatar.png" alt="logo" height="200">
-                </div>
-                <h1>Toti</h1>
-                <div id="contact">
-                    <a href="mailto:my@cock.email" id="email"><svg viewBox="0 0 42 36" xmlns="http://www.w3.org/2000/svg"><path d="M3.025 5.255A1.99 1.99 0 0 1 4.003 5h33.994c.354 0 .688.093.977.256L21 18.5 3.025 5.255zm-1.002 1.45c-.015.098-.023.2-.023.302V18.28v-5.636 17.35C2 31.1 2.902 32 4.003 32h33.994A2.005 2.005 0 0 0 40 29.993v-17.35 5.638V7.008c0-.103-.008-.204-.023-.303L21 20.687 2.023 6.704z"/></svg></a>
-                    <a href="https://t.me/ninjazan"><img alt="Telegram" src="images/telegram.png" width="20" height="20"></a>
-                </div>
-            </div>
-            <div>
-                <a href='https://ko-fi.com/B0B71O84V' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi5.png?v=2' border='0' alt='Bekomm ich nen Kaffee? :3'></a>
-            </div>
-        </header>
-        <div id="content">
-            <section id="openSource">
-                <h2>Open Source</h2>
-                <ul>
-                    <li><a href="https://github.com/ninjasan420" target="_blank">Github Account</a></li>
-                    <li><a href="https://github.com/ninjasan420/Stammtisch-Bot" target="_blank">Discord Stammtisch Bot 🍺</a></li>
-                    <li><a href="https://github.com/drauger-os-development" target="_blank">DraugerOS (LinuxOS with xfce)</a></li>
-                    <li><a href="https://github.com/ninjasan420/EnhancedDiscordPlugins" target="_blank">Discord JS Plugins</a></li>
-                    <li><a href="https://github.com/ninjasan420/Personal-Website" target="_blank">This Website on Github</a></li>
-                </ul>
-            </section>
-            <section id="experiments">
-                <h2>Android</h2>
-                <ul>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.veekoonmedia.guessthegame" target="_blank">Guess The Game</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.veekoonmedia.getwise" target="_blank">Get Wise!</a></li>
-                </ul>
-            </section>
-            </section>
-            <section id="experiments">
-                <h2>iOS</h2>
-                <ul>
-                    <li><a href="https://apps.apple.com/us/app/download/id1057459526" target="_blank">Cammie</a></li>
-                </ul>
-            </section>
-            <section id="work">
-                <h2>Skillset</h2>
-                <ul>
-                    Python, JS, Vue, node, HTML5 + CSS3, Android, Swift, Objective-C, Pentesting
-                </ul>
-            </section>
-            <section id="work">
-                <h2>Contact 💌</h2>
-                <ul>
-                    <p>Discord: ninja#1337</p>
-                    <p>Mail: <a href="mailto:my@cock.email">my@cock.email</a></p>
-                </ul>
-            </section>
-            <section id="work">
-                <h2>No Cookie/Tracker guarantee</h2>
-                <ul>
-                    <p>No datas getting collected.</p>
-                </ul>
-            </section>
-        </div>
-    </div>
-    <svg id="page-stripes" class="full-size" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
-    </svg>
-    <div id="intro" class="full-size">
-        <div id="logo-container" class="full-size">
-            <svg viewBox="0 0 640 536" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path transform="scale(4 4)" d="M24.44 78.157L0 53.53 53.417 0l26.39 26.612L106.38 0l53.482 53.614L136.25 77.31l-29.312-29.2-26.46 26.946-26.548-26.58-29.49 29.68zm5.335 5.375l50.033 50.415 51.108-51.286-23.775-23.684-26.712 26.72-26.372-26.404-24.28 24.24z" fill="#101214" fill-rule="evenodd"/></svg>
-        </div>
-        <svg id="stripes" class="full-size" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"></svg>
-    </div>
-    <script src="./js/dynamics.js"></script>
-    <script src="./js/tinycolor.js"></script>
-    <script src="./js/mv.es5.js"></script>
-</body>
-
-</html>
+  </div>
+  
+  <div class="footer">
+    <p>© Toti 2021</p>
+    <p>Made with ❤ and coffee - a lot of coffee</p>
+   </div>
+  
+  </body>
